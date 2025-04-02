@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Nonlinear Constrained Optimization</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Hao Wang</div>
+<div class="menu-item"><a href="index.html">About&nbsp;me</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+<div class="menu-item"><a href="students.html">Students</a></div>
+<div class="menu-item"><a href="index.html">CV</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="lp_projection.html">\(l_p\)&nbsp;Ball&nbsp;Projection</a></div>
+<div class="menu-item"><a href="lp_regularization.html">\(l_p\)&nbsp;Regularization</a></div>
+<div class="menu-item"><a href="nonlinear_opt.html" class="current">NLP</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Nonlinear Constrained Optimization</h1>
+</div>
+<h3><a href="https://epubs.siam.org/doi/10.1137/120880045" target=&ldquo;blank&rdquo;>A Sequential Quadratic Optimization Algorithm With Rapid Infeasibility Detection</a></h3>
+<p>We present a sequential quadratic optimization (SQO) algorithm for nonlinear constrained optimization. The method attains all of the strong global and fast local convergence guarantees of classical SQO methods, but has the important additional feature that fast local convergence is guaranteed when the algorithm is employed to solve infeasible instances. A two-phase strategy, carefully constructed parameter updates, and a line search are employed to promote such convergence. The first phase subproblem determines the reduction that can be obtained in a local model of an infeasibility measure when the objective function is ignored. The second phase subproblem then seeks to minimize a local model of the objective while ensuring that the resulting search direction attains a reduction in the local model of the infeasibility measure that is proportional to that attained in the first phase. The subproblem formulations and parameter updates ensure that, near an optimal solution, the algorithm reduces to a classical SQO method for constrained optimization, and, near an infeasible stationary point, the algorithm reduces to a (perturbed) SQO method for minimizing constraint violation. Global and local convergence guarantees for the algorithm are proved under reasonable assumptions and numerical results are presented for a large set of test problems.
+</p>
+<h3><a href="https://epubs.siam.org/doi/10.1137/18M1176488" target=&ldquo;blank&rdquo;>Inexact Sequential Quadratic Optimization With Penalty Parameter Updates Within the QP Solver</a></h3>
+<p>This paper focuses on the design of sequential quadratic optimization (commonly known as SQP) methods for solving large-scale nonlinear optimization problems. The most computationally demanding aspect of such an approach is the computation of the search direction during each iteration, for which we consider the use of matrix-free methods. In particular, we develop a method that requires an inexact solve of a single QP subproblem to establish the convergence of the overall SQP method. It is known that SQP methods can be plagued by poor behavior of the global convergence mechanism. To confront this issue, we propose the use of an exact penalty function with a dynamic penalty parameter updating strategy to be employed within the subproblem solver in such a way that the resulting search direction predicts progress toward both feasibility and optimality. We present our parameter updating strategy and prove that, under reasonable assumptions, the strategy does not modify the penalty parameter unnecessarily. We close the paper with a discussion of the results of numerical experiments that illustrate the benefits of our proposed techniques.
+</p>
+<h3><a href="https://www.tandfonline.com/doi/abs/10.1080/10556788.2020.1712601" target=&ldquo;blank&rdquo;>An Inexact First-order Method for Constrained Nonlinear Optimization</a></h3>
+<p>The primary focus of this paper is on designing an inexact first-order algorithm for solving constrained nonlinear optimization problems. By controlling the inexactness of the subproblem solution, we can significantly reduce the computational cost needed for each iteration. A penalty parameter updating strategy during the process of solving the subproblem enables the algorithm to automatically detect infeasibility. Global convergence for both feasible and infeasible cases is proved. Complexity analysis for the KKT residual is also derived under mild assumptions. Numerical experiments exhibit the ability of the proposed algorithm to rapidly find inexact optimal solution through cheap computational cost.
+</p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2023-10-24 20:58:47 CST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

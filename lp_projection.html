@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>\(l_p\) Ball Projection</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Hao Wang</div>
+<div class="menu-item"><a href="index.html">About&nbsp;me</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+<div class="menu-item"><a href="students.html">Students</a></div>
+<div class="menu-item"><a href="index.html">CV</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="lp_projection.html" class="current">\(l_p\)&nbsp;Ball&nbsp;Projection</a></div>
+<div class="menu-item"><a href="lp_regularization.html">\(l_p\)&nbsp;Regularization</a></div>
+<div class="menu-item"><a href="nonlinear_opt.html">NLP</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>\(l_p\) Ball Projection</h1>
+</div>
+<h3><a href="https://www.tandfonline.com/doi/abs/10.1080/02331934.2019.1696338" target=&ldquo;blank&rdquo;>Inexact Primal–dual Gradient Projection Methods for Nonlinear Optimization on Convex Set</a></h3>
+<p>In this paper, we propose a novel primal–dual inexact gradient projection method for nonlinear optimization problems with convex-set constraint. This method only needs inexact computation of the projections onto the convex set for each iteration, consequently reducing the computational cost for projections per iteration. This feature is attractive especially for solving problems where the projections are computationally not easy to calculate. Global convergence guarantee and \(O(1/k)\) ergodic convergence rate of the optimality residual are provided under loose assumptions. We apply our proposed strategy to \(l_1\)-ball constrained problems. Numerical results exhibit that our inexact gradient projection methods for solving \(l_1\)-ball constrained problems are more efficient than the exact methods.
+</p>
+<h3><a href="https://link.springer.com/article/10.1007/s10957-020-01766-y" target=&ldquo;blank&rdquo;>Projections onto the Intersection of a \(l_1\) Ball or Sphere and a \(l_2\) Ball or Sphere</a></h3>
+<p>This paper focuses on designing a unified approach for computing the projection onto the intersection of a one-norm ball or sphere and a two-norm ball or sphere. We show that the solutions of these problems can all be determined by the root of the same piecewise quadratic function. We make use of the special structure of the auxiliary function and propose a novel bisection algorithm with finite termination. We show that the proposed method possesses quadratic time worst-case complexity. The efficiency of the proposed algorithm is demonstrated in numerical experiments, which show the proposed method has linear time complexity in practice.
+</p>
+<h3><a href="https://www.jmlr.org/papers/volume23/21-0133/21-0133.pdf" target=&ldquo;blank&rdquo;>Towards An Efficient Approach for the Nonconvex \(l_p\) Ball Projection: Algorithm and Analysis</a></h3>
+<p>This paper primarily focuses on computing the Euclidean projection of a vector onto the \(l_p\) ball in which \(p\in (0,1)\). Such a problem emerges as the core building block in statistical machine learning and signal processing tasks because of its ability to promote the sparsity of the desired solution. However, efficient numerical algorithms for finding the projections are still not available, particularly in large-scale optimization. To meet this challenge, we first derive the first-order necessary optimality conditions of this problem. Based on this characterization, we develop a novel numerical approach for computing the stationary point by solving a sequence of projections onto the reweighted \(l_1\)-balls. This method is practically simple to implement and computationally efficient. Moreover, the proposed algorithm is shown to converge uniquely under mild conditions and has a worst-case \(O(1/\sqrt{k})\) convergence rate. Numerical experiments demonstrate the efficiency of our proposed algorithm.</p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2023-10-24 20:58:47 CST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

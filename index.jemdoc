@@ -1,0 +1,37 @@
+# jemdoc: menu{MENU}{index.html}
+= Hao Wang
+
+~~~
+{}{img_left}{pics/icon.jpg}{alt text}{162px}{216px}{}
+Hao Wang \n
+
+Ph.D., Associate Professor \n
+[https://sist.shanghaitech.edu.cn/ School of Information Science and Technology] \n
+[https://www.shanghaitech.edu.cn/ ShanghaiTech University] \n
+
+[index.html Google Scholar], [index.html Github]
+~~~
+
+== Bio
+I received my B.S. & M.S. in Mathematics from Beihang University, Beijing, in 2007 and 2009, respectively, and Ph.D. degree from the Industrial and Systems Engineering Department, Lehigh University, Bethlehem, PA, USA in 2015. I was with ExxonMobil Corporate Strategic Research Lab in 2012, Mitsubishi Electric Research Lab in 2014, and GroupM R&D in 2015. Since 2016, I was a tenure-track assistant professor in the School of Information Science and Technology at ShanghaiTech University, and promoted to associate professor in 2023.
+
+== Research Interests
+My research revolves around the area of nonlinear optimization as well as its applications in various disciplines, such as operations research, computer science, and statistics. The majority of my work involves designing algorithms, analyzing convergence, and developing software. I am currently working on the following topics.
+
+- Stochastic nonlinear optimization algorithms
+- Regularization techniques in machine learning
+- Low-rank matrix completion
+- Nonlinear optimization algorithms for potentially infeasible problems
+
+== Research Funding
+- "High performance algorithms for large-scale nonconvex regularized machine learning,'' Natural Science Foundation of Shanghai, No. 21ZR1442800, budget 200,000 CNY, effective from July 2021 to June 2024, PI.
+- "Cubic regularization algorithms for large-scale machine learning problems,'' the Young Scientists Fund of the National Natural Science Foundation of China, No. 12001367, budget 240,000 CNY, effective from July 2020 to June 2023, PI.
+- "Model Reduction Based Tensor Recovery Methods for Partial Differential Equations with High-Dimensional Random Inputs,'' NSFC, No.12071291, budget 510,000 CNY, effective from January 2021 to December 2024, co-PI with Prof. Qifeng Liao.
+- "Data Driven Physics-Informed Uncertainty Quantification for Atmospheric Aerosols,'' Shanghai 2020 Scientific and Technological Innovation Program, No.20JC1414300, 500,000 CNY, effective from October 2020 to September 2023, co-PI with Prof. Qifeng Liao.
+- Shanghai Eastern Youth Scholar, 2017, Shanghai Municipal Education Commission.
+
+== Contact
+/Rm. A-401, SIST Bldg. 2,/ \n
+/393 Middle Huaxia Rd, Shanghai 201210, China/ \n
+/Phone: +86-21-2068 5389/ \n
+/E-mail: wanghao1\[at\]shanghaitech\[dot\]edu\[dot\]cn, haw309\[at\]gmail\[dot\]com/

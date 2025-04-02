@@ -1,0 +1,41 @@
+# jemdoc: menu{MENU}{publications.html}
+= Publications
+
+== Published Journal Papers
+
+- Hao Wang*, Yining Gao, Jiashan Wang and Hongying Liu, “ Constrained Optimization Involving Nonconvex Norms: Optimality Conditions, Algorithm and Convergence ”, Pacific Journal of Optimization, 2023.
+- Hao Wang∗, Hao Zeng, Jiashan Wang, “Convergence Rate Analysis of Proximal Iteratively Reweighted l1 Methods for lp Regularization Problems”, Optimization Letters, vo. 17, no. 2, pp. 413-435, January, 2023.
+- Xiangyu Yang, Hao Wang∗, Jiashan Wang, “Towards an efficient approach for the nonconvex lp ball projection: algorithm and analysis”, Journal of Machine Learning Research, no. 101, pp. 1-31, April, 2022.
+- Hao Wang∗, Hao Zeng, Jiashan Wang, “An Extrapolated Iteratively Reweighted l1 Method with Complexity Analysis," Computational Optimization and Applications, October, 2022.
+- Yuyan Zhou, Yang Liu∗, Ming Li, Qingqing Wu, Hao Wang. “Joint Sensor Selection, Beamforming and Phase Control in Reconfigurable Intelligent Surface Aided IoT Networks”, IEEE Wireless Communications Letters, vol. 11, no. 2, pp. 401-405, February, 2022.
+- Hao Wang∗, Fan Zhang, Yaohua Hu, Yuanming Shi. “Nonconvex and Nonsmooth Sparse Optimization via Adaptively Iterative Reweighted Methods”, vol. 81, no. 3, pp. 717-748, October, 2021, Journal of Global Optimization.
+- Hejie Wei, Zhihai Qu, Xuyang Wu, Hao Wang, Jie Lu, “Decentralized Approximate Newton Methods for In-Network Optimization," IEEE Transactions on Control of Network Systems, vol. 8, no. 3, pp. 1489-1500, Semptember, 2021.
+- Xiangyu Yang, Hao Wang∗, Yuanming Shi, Jun Lin, “A Proximal Iteratively Reweighted Approach for Efficient Network Sparsification,” IEEE Transactions on Computers, vol. 71, no. 1, pp. 185-196, April, 2022.
+- Hao Wang∗, Hao Zeng, Jiashan Wang, Qiong Wu, “Relating lp regularization and reweighted l1 regularization,” Optimization Letters, vol. 15, no. 8, pp. 2639-2660, January, 2021.
+- Hongying Liu, Hao Wang∗, Mengmeng Song. “Projections onto the Intersection of l1 and l2 balls or spheres,” Journal of Optimization Theory and Applications, vol. 187, pp. 520-534, October, 2020.
+- James V. Burke, Frank E. Curtis, Hao Wang∗, Jiashan Wang. “Inexact Sequential Quadratic Optimization With Penalty Parameter Updates Within The QP Solver”, SIAM Journal on Optimization, vol. 30, no. 3, 2020.
+- Xiangyu Yang, Sheng Hua, Yuanming Shi, Hao Wang, Jun Zhang, B. Letaief, Khaled, “Sparse Optimization for Green Edge AI Inference,” Journal of Communications and Information Networks, vol. 5, no. 1, 2020.
+- Zhihua Zhao, Hao Wang∗, Xiangyu Yang, Fengmin Xu, “CVaR-Cardinality Enhanced Indexation Optimization with Tunable Short-selling Constraints”, Applied Economics Letters, March, 2020.
+- Hao Wang∗, Fan Zhang, Jiashan Wang, Yuyang Rong. “An Inexact First-Order Method for Constrained Nonlinear Optimization”, Optimization Methods and Software, pp. 1-34, January, 2020.
+- Fan Zhang, Hao Wang∗, Jiashan Wang, Kai Yan, “Inexact Primal-Dual Gradient Projection Methods for Nonlinear Optimization on Convex Set”, Optimization, pp. 1-27, December, 2019.
+- Yang Liu, Jing Li, Hao Wang. “Robust Beamforming in Wireless Sensor Networks”, IEEE Transactions on Communications, vol. 67, no. 6, pp. 4450-4463, June, 2019.
+- Qiong Wu, Fan Zhang, Hao Wang∗, Jun Lin, Yang Liu. “Parameter-free lp-Box Decoding of LDPC Codes”, IEEE Communications Letters, vol. 22, no. 7, pp. 1318-1321, July, 2018.
+- James V. Burke, Frank E. Curtis, Hao Wang∗, J. Wang. “Iterative Reweighted Linear Least Squares for Exact Penalty Subproblems on Product Sets”, SIAM Journal on Optimization, vol. 25, no. 1, pp. 261-294, 2015.
+- James V. Burke, Frank E. Curtis, Hao Wang∗. “A Sequential Quadratic Optimization Algorithm with Fast Infeasibility Detection”, SIAM Journal on Optimization, vol. 24, no. 2, pp. 839-872, 2014.
+- Hao Wang∗, Hongying Liu, Yong Xia. “Two-point Step Size Iterative Soft-thresholding Method for Sparse Reconstruction”, International Journal of Computer Mathematics, vol. 88, no. 12, pp. 2527-2537, April, 2010.
+- Hao Wang∗, Hongying Liu, Yong Xia. “Two-step Version of the Fixed Point Continuation Method for Sparse Reconstruction”, Frontiers of Mathematics in China, vol. 5, no. 3, pp. 575-588, May, 2010.
+
+== Published Conference Papers
+
+- Yanjie Chen, Likun Cai, Wei Cheng, Hao Wang, “ Super-Resolution Coding Defense against Adversarial Examples ,” ICMR 2020: Proceedings of the 2020 International Conference on Multimedia Retrieval. June 2020 pp.189–197.
+- S. Hua, X. Yang, K. Yang, G. Yin, Y. Shi and H. Wang, “Deep Learning Tasks Processing in Fog-RAN,” 2019 IEEE 90th Vehicular Technology Conference (VTC2019-Fall), Honolulu, HI, USA, 2019, pp. 1-5.
+- T. Jiang, X. Yang, Y. Shi and H. Wang, “ Layer-wise Deep Neural Network Pruning via Iteratively Reweighted Optimization,” ICASSP 2019-2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Brighton, United Kingdom, 2019, pp. 5606-5610.
+- Jie Lu, Xuyang Wu, Hejie Wei, Hao Wang, “Distributed Second-Order Methods for Convex Optimization Over Networks,” the proceedings of the 15th International Conference on Control, Automation, Robotics and Vision, (ICARCV), Singapore, 2018.
+- Fan Zhang, Qiong Wu, Hao Wang, Yuanming Shi. “Topological interference alignment via generalized low-rank optimization with sequential convex approximations,” in Proc. IEEE Int. Workshop Signal Process. Adv. Wireless Commun. (SPAWC), Kalamata, Greece, Jun. 2018.
+- Fan Zhang, Qiong Wu, Hao Wang, Yuanming Shi. “lp-Box Optimization for Green Cloud- RAN via Network Adaptation," in Pro. IEEE Veh. Technol. Conf. (VTC), Chicago, USA, Aug. 2018.
+- Q. Wu, F. Zhang, H. Wang and Y. Shi, “ Generalized Low-Rank Matrix Completion via Nonconvex Schatten p-Norm Minimization,” 2018 IEEE 88th Vehicular Technology Conference (VTC-Fall), Chicago, IL, USA, 2018, pp. 1-5.
+
+== Ph.D. Dissertation
+- "Infeasibility Detection and Matrix-free Methods for Large-Scale Nonlinear Optimization," Ph.D. Dissertation, Lehigh University, May 2015.
+
+

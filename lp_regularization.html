@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>\(l_p\) Regularization</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Hao Wang</div>
+<div class="menu-item"><a href="index.html">About&nbsp;me</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+<div class="menu-item"><a href="students.html">Students</a></div>
+<div class="menu-item"><a href="index.html">CV</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="lp_projection.html">\(l_p\)&nbsp;Ball&nbsp;Projection</a></div>
+<div class="menu-item"><a href="lp_regularization.html" class="current">\(l_p\)&nbsp;Regularization</a></div>
+<div class="menu-item"><a href="nonlinear_opt.html">NLP</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>\(l_p\) Regularization</h1>
+</div>
+<h3><a href="https://epubs.siam.org/doi/10.1137/130950239" target=&ldquo;blank&rdquo;>Iterative Reweighted Linear Least Squares for Exact Penalty Subproblems on Product Sets</a></h3>
+<p>We present two matrix-free methods for solving exact penalty subproblems on product sets that arise when solving large-scale optimization problems. The first approach is a novel iterative reweighting algorithm (IRWA), which iteratively minimizes quadratic models of relaxed subproblems while automatically updating a relaxation vector. The second approach is based on alternating direction augmented Lagrangian (ADAL) technology applied to our setting. The main computational costs of each algorithm are the repeated minimizations of convex quadratic functions which can be performed matrix-free. We prove that both algorithms are globally convergent under loose assumptions and that each requires at most \(O(1/\epsilon^2)\) iterations to reach \(\epsilon\)-optimality of the objective function. Numerical experiments exhibit the ability of both algorithms to efficiently find inexact solutions. However, in certain cases, these experiments indicate that IRWA can be significantly more efficient than ADAL.
+</p>
+<h3><a href="https://link.springer.com/article/10.1007/s11464-010-0056-y" target=&ldquo;blank&rdquo;>Two-step Version of the Fixed Point Continuation Method for Sparse Reconstruction</a></h3>
+<p>\(l_1\)-regularized problems have a wide application in various areas such as signal processing. It minimizes a quadratic function combined with an \(l_1\) norm term. Iterative soft-thresholding method (IST) is originally proposed to deal with these problems, and fixed point continuation algorithm (FPC) was proposed recently as an improved version of IST. This paper obtains a two-step version of FPC (TwFPC) by combining the new iterate of FPC with its previous two iterates. We also provide an analysis for the convergence of FPC and TwFPC. Various numerical experiments on image deconvolution and compressed sensing show that TwFPC improves IST significantly and is much faster than other competing codes. What is more important, it is very robust to the involved parameters and the regularization parameter.
+</p>
+<h3><a href="https://ieeexplore.ieee.org/document/9055106" target=&ldquo;blank&rdquo;>Sparse Optimization for Green Edge AI Inference</a></h3>
+<p>With the rapid upsurge of deep learning tasks at the network edge, effective edge artificial intelligence (AI) inference becomes critical to provide low-latency intelligent services for mobile users via leveraging the edge computing capability. In such scenarios, energy efficiency becomes a primary concern. In this paper, we present a joint inference task selection and downlink beamforming strategy to achieve energy-efficient edge AI inference through minimizing the overall power consumption consisting of both computation and transmission power consumption, yielding a mixed combinatorial optimization problem. By exploiting the inherent connections between the set of task selection and group sparsity structural transmit beamforming vector, we reformulate the optimization as a group sparse beamforming problem. To solve this challenging problem, we propose a log-sum function based three-stage approach. By adopting the log-sum function to enhance the group sparsity, a proximal iteratively reweighted algorithm is developed. Furthermore, we establish the global convergence analysis and provide the ergodic worst-case convergence rate for this algorithm. Simulation results will demonstrate the effectiveness of the proposed approach for improving energy efficiency in edge AI inference systems.
+</p>
+<h3><a href="https://ieeexplore.ieee.org/document/9291425" target=&ldquo;blank&rdquo;>A Proximal Iteratively Reweighted Approach for Efficient Network Sparsification</a></h3>
+<p>The huge size of deep neural networks makes it difficult to deploy on the embedded platforms with limited computation resources directly. In this paper, we propose a novel trimming approach to determine the redundant parameters of the trained deep neural network in a layer-wise manner to produce a compact neural network. This is achieved by minimizing a nonconvex sparsity-inducing term of the network parameters while maintaining the response close to the original one. We present a proximal iteratively reweighted method to resolve the resulting nonconvex model, which approximates the nonconvex objective by a weighted \(l_1\) norm of the network parameters. Moreover, to alleviate the computational burden, we develop a novel termination criterion during the subproblem solution, significantly reducing the total pruning time. Global convergence analysis and a worst-case \(O(1=k)\) ergodic convergence rate for our proposed algorithm is established. Numerical experiments demonstrate the proposed approach is efficient and reliable.
+</p>
+<h3><a href="https://link.springer.com/article/10.1007/s10898-021-01093-0" target=&ldquo;blank&rdquo;>Nonconvex and Nonsmooth Sparse Optimization via Adaptively Iterative Reweighted Methods</a></h3>
+<p>We propose a general formulation of nonconvex and nonsmooth sparse optimization problems with convex set constraint, which can take into account most existing types of nonconvex sparsity-inducing terms, bringing strong applicability to a wide range of applications. We design a general algorithmic framework of iteratively reweighted algorithms for solving the proposed nonconvex and nonsmooth sparse optimization problems, which solves a sequence of weighted convex regularization problems with adaptively updated weights. First-order optimality condition is derived and global convergence results are provided under loose assumptions, making our theoretical results a practical tool for analyzing a family of various reweighted algorithms. The effectiveness and efficiency of our proposed formulation and the algorithms are demonstrated in numerical experiments on various sparse optimization problems.
+</p>
+<h3><a href="https://link.springer.com/article/10.1007/s11590-020-01685-x" target=&ldquo;blank&rdquo;>Relating \(l_p\) regularization and reweighted \(l_1\) regularization</a></h3>
+<p>We propose a general framework of iteratively reweighted \(l_1\) algorithms for solving \(l_p\) regularization problems. We show that all the limit points of the iterates generated by the proposed algorithms have the same sign. Moreover, for sufficiently large iterations, the iterates also have the same sign as the limit points, and the nonzero components are bounded away from zero. Therefore, the algorithm behaves like solving a smooth problem in the reduced space consisting of the nonzero components. We analyze the global convergence and the worst-case complexity for the reweighted algorithms. Besides, a smoothing parameter updating strategy is proposed which can automatically stop reducing the smoothing parameters corresponding to the zero components of the limit points. We show that the \(l_p\) regularized regression problem is locally equivalent to a weighted \(l_1\) regularization problem near a stationary point and every stationary point corresponds to a Maximum A Posterior estimation for independently and non-identically distributed Laplace prior parameters. Numerical experiments exhibit the behaviors and the efficiency of our proposed algorithms.
+</p>
+<h3><a href="https://www.tandfonline.com/doi/abs/10.1080/00207160.2010.542236" target=&ldquo;blank&rdquo;>Two-point Step Size Iterative Soft-thresholding Method for Sparse Reconstruction</a></h3>
+<p>Many problems in signal processing involve minimizing a quadratic error term combined with an \(l_1\) norm term. Iterative soft-thresholding algorithm (IST) is a basic method for these problems. Despite of previous explanations of IST, this study presents it as a method of constructing a local model to approximate the objective function. It only uses the approximation of the quadratic term while keeping the \(l_1\) norm term unchanged. Based on this, we propose a modified IST (MIST), using a general strictly convex quadratic function to approximate the quadratic part. IST uses the identity matrix to approximate the Hessian matrix of the quadratic term, while we adopts an adaptive matrix by using the information of current and former iterates. This strategy results in the two-point step size IST, including \(\text{MIST}_{\text{BB1}}\) and \(\text{MIST}_{\text{BB2}}\). Various experiments on compressed sensing show that \(\text{MIST}_{\text{BB1}}\) is much faster than competing codes, and insensitive to the regularization parameter.
+</p>
+<h3><a href="https://arxiv.org/abs/2007.05747" target=&ldquo;blank&rdquo;>Convergence Rate Analysis of Proximal Iteratively Reweighted \(l_1\) Methods for \(l_p\) Regularization Problems</a></h3>
+<p>In this paper, we focus on the local convergence rate analysis of the proximal iteratively reweighted \(l_1\) algorithms for solving \(l_p\) regularization problems, which are widely applied for inducing sparse solutions. We show that if the <i>Kurdyka–Łojasiewicz</i> property is satisfied, the algorithm converges to a unique first-order stationary point; furthermore, the algorithm has local linear convergence or local sublinear convergence. The theoretical results we derived are much stronger than the existing results for iteratively reweighted \(l_1\) algorithms.
+</p>
+<h3><a href="https://ieeexplore.ieee.org/document/9624942" target=&ldquo;blank&rdquo;>Joint Sensor Selection, Beamforming and Phase Control in Reconfigurable Intelligent Surface Aided IoT Fusion Networks</a></h3>
+<p>In this paper, we investigate the power minimization problem in an Internet of Things (IoT) sensor network assisted by reconfigurable intelligent surface (RIS). Different from the existing literature, we consider both transmit and non-transmit energy consumption, which leads to a joint sensor selection, beamforming design and RIS phase configuration problem. Based on the cutting-the-edge majorization minimization (MM) and penalty duality decomposition (PDD) frameworks, we develop two solutions which can achieve nearly identical performance as that of exhaustive search method. Extensive numerical results verify the great benefit in power saving via sensor selection and the deployment of RIS device.
+</p>
+<h3><a href="https://link.springer.com/article/10.1007/s10589-022-00416-5" target=&ldquo;blank&rdquo;>An Extrapolated Iteratively Reweighted \(l_1\) Method With Complexity Analysis</a></h3>
+<p>The iteratively reweighted \(l_1\) algorithm is a widely used method for solving various regularization problems, which generally minimize a differentiable loss function combined with a convex/nonconvex regularizer to induce sparsity in the solution. However, the convergence and the complexity of iteratively reweighted \(l_1\) algorithms is generally difficult to analyze, especially for non-Lipschitz differentiable regularizers such as \(l_p\) norm regularization with \(0 &lt; p &lt; 1\). In this paper, we propose, analyze and test a reweighted \(l_1\) algorithm combined with the extrapolation technique under the assumption of <i>Kurdyka-Łojasiewicz</i> (KL) property on the proximal function of the perturbed objective. Our method does not require the Lipschitz differentiability on the regularizers nor the smoothing parameters in the weights bounded away from 0. We show the proposed algorithm converges uniquely to a stationary point of the regularization problem and has local linear convergence for KL exponent at most \(1/2\) and local sublinear convergence for KL exponent greater than \(1/2\). We also provide results on calculating the KL exponents and discuss the cases when the KL exponent is at most \(1/2\). Numerical experiments show the efficiency of our proposed method.
+</p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2023-10-24 20:58:47 CST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
